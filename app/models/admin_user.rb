@@ -1,0 +1,2 @@
+class AminUser < User 
+end
