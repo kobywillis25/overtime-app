@@ -16,7 +16,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
-  gem 'database_cleaner'
+  gem 'database_cleaner' 
 end
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -28,6 +28,7 @@ group :test do
   gem 'selenium-webdriver'
  
   gem 'chromedriver-helper'
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
