@@ -19,7 +19,7 @@ end
     expect(@post.reload.status).to eql('approved')
   end
 
-  xit 'cannot be edited by a non admin' do
+  it 'cannot be edited by a non admin' do
     logout(:user)
     user = FactoryBot.create(:user)
     login_as(user, :scope => :user)
